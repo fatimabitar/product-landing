@@ -1,0 +1,116 @@
+@media( max-width:1200px){
+    html{
+        font-size: 59%;}
+    #nav-bar{
+    width: 75%;}
+    .landing-text{
+    width: 75%;}
+}
+@media( max-width:992px){
+    html{
+        font-size: 58%;}
+    #header{
+        width: 100%;
+        background-position: right;
+        }
+    .logo-nav-wrapper{
+        padding: 1rem;
+        height:4rem;}
+    #nav-bar{
+        width: 70%;}
+    #nav-bar .navbar .nav-link{
+        font-size: 1.5rem;}
+    .landing-text{
+    width: 85%;}
+    .landing-text input[type="email"]{
+        width: 45%;}
+    #features .feature-card{
+        width: 35%;
+        margin-bottom: 4rem;}
+        #howItWork iframe{
+        width: 45rem;
+        height: 35rem;
+        }
+}  
+@media( max-width:768px){
+
+    html{
+        font-size: 55%;}
+    #header{
+        width: 100%;
+        height: 75vh;
+        background-position: right;
+}
+    .logo-nav-wrapper{
+        padding: 1rem;
+        height:4rem;}
+    #nav-bar{
+        width: 80%;}
+    #nav-bar .navbar .nav-link{
+        font-size: 1.2rem;}
+    .landing-text{
+    width: 80%;}
+    .landing-text input[type="email"]{
+        width: 45%;}
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;}
+
+    #features .feature-card{
+        width: 70%;
+        margin-bottom: 4rem;}
+
+        #howItWork iframe{
+            margin-top: 2rem;
+        }
+
+    #pricing .pricing-card{
+        width: 50%;
+        margin-bottom: 4rem;
+        margin-right: 0;}
+}
+
+@media( max-width:600px){
+html{
+    font-size: 40%;
+}
+#header{
+    width: 100%;
+    height: 75vh;
+    background-position: top;
+    }
+.logo-nav-wrapper{
+    padding: 1rem;
+    height:3rem;
+}
+#nav-bar{
+    width: 80%;
+}
+#nav-bar .navbar .nav-link{
+    font-size: 1rem;
+}
+.landing-text{
+width: 80%;
+}
+.landing-text input[type="email"]{
+    width: 50%;
+}
+.container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#features .feature-card{
+    width: 70%;
+    margin-bottom: 4rem;
+}
+#howItWork iframe{
+    margin-top: 2rem;
+}
+#pricing .pricing-card{
+    width: 50%;
+    margin-bottom: 4rem;
+    margin-right: 0;
+}
+}
